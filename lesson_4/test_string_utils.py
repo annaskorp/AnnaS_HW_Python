@@ -3,7 +3,7 @@ from string_utils import StringUtils
 
 
 string_utils = StringUtils()
-
+  #1
 
 @pytest.mark.parametrize("input_str, expected", [
     ("буква", "Буква"),
@@ -31,9 +31,6 @@ def test_capitalize_negative(input_str, expected):
     ("", ""),
 ])
 def test_trim_positive (input_str, expected):
-    whitespace = " "
-    while input_str.startswith(whitespace):
-        input_str = input_str.removeprefix(whitespace)
     assert string_utils.trim(input_str) == expected
 
 
@@ -45,9 +42,6 @@ def test_trim_positive (input_str, expected):
     ("", ""),
 ])
 def test_trim_negative (input_str, expected):
-    whitespace = " "
-    while input_str.startswith(whitespace):
-        input_str = input_str.removeprefix(whitespace)
     assert string_utils.trim(input_str) == expected
 
 
