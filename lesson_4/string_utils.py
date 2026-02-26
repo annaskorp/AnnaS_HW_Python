@@ -52,4 +52,3 @@ class StringUtils:
             string = string.replace(symbol, "")
         return string
 
-    # написать тесты

@@ -24,7 +24,6 @@ def test_capitalize_negative(input_str, expected):
 
     #2
 
-
 @pytest.mark.parametrize("input_str, expected", [
     ("   3 пробела", "3 пробела"),
     ("Нет пробела", "Нет пробела"),
@@ -62,7 +61,6 @@ def test_contains_positive(input_str, symbol_str, expected):
 ])
 def test_contains_negative(input_str, symbol_str, expected):
     assert string_utils.contains(input_str, symbol_str) == expected
-
 
 
     #4
