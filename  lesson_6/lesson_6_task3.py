@@ -23,3 +23,4 @@ src_value = third_image.get_attribute("src")
 print(f"URL 3-й картинки: {src_value}")
 
 driver.quit()
+
