@@ -46,3 +46,4 @@ def test_slow_calculator(driver):
 
     print("\nПобеда! Калькулятор выдал 15.")
 
+
