@@ -65,3 +65,5 @@ def test_saucedemo_order(driver):
     # Проверяем, содержит ли строка нужную нам сумму
     expected_total = "Total: $58.29"
     assert total_text == expected_total, f"Ошибка! Ожидали {expected_total}, но получили {total_text}"
+
+
